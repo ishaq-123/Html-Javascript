@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Try/catch</title>
+</head>
+<body>
+<p id="demo"></p>
+
+<script>
+function lib(a,b,c,d) 
+{
+return a+b*c/d;
+}
+try
+{
+var x=lib(2,2,2,2);
+document.getElementById('demo').innerHTML=x;
+}
+catch (err)
+{
+document.getElementById("demo").innerHTML=err.message;
+}
+
+</script>
+
+</html>
+</body>
