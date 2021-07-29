@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Showroom</title>
+</head>
+<body>
+	<p id="demo"></p>
+
+<script >
+	class Car
+	{
+		constructor(name,model,price,number)
+		{
+			this.name=name;
+			this.model=model;
+            this.price=price;
+			this.number=number;
+		}
+
+	};
+	const c=new Car(" Vxr <br>"," 2003 <br>"," 1031 "," 650000 <br>");
+	document.getElementById('demo').innerHTML=c.name+c.model+c.number+c.price;
+</script>
+</body>
+</html>
