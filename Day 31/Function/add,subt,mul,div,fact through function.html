@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Function</title>
+</head>
+<body>
+<p id="a"></p>
+<p id="b"></p>
+<p id="c"></p>
+<p id="d"></p>
+<p id="e"></p>
+
+
+<script>
+
+<!--ADDITION-->
+
+function add(a,b)
+{
+	var c= a+b;
+	return c;
+}
+var result=add(6,4);
+document.getElementById('a').innerHTML=result;
+
+<!--SUBTRACTION-->
+
+function subtraction(a,b)
+{
+	var c= a-b;
+	return c;
+}
+var subtract=subtraction(6,4);
+document.getElementById('b').innerHTML=subtract;
+
+<!--MULTIPLICATION-->
+
+function mult(a,b)
+{
+	var c= a*b;
+	return c;
+}
+var multiplication=mult(6,4);
+document.getElementById('c').innerHTML=multiplication;
+
+<!--DIVISION-->
+
+function div(a,b)
+{
+	var c= a/b;
+	return c;
+}
+var division=div(6,4);
+document.getElementById('d').innerHTML=division;
+
+
+<!--FACTORIAL-->
+
+function fact(n)
+{
+	var c;
+        c=n*(n-1);
+        return c;
+}
+var factorial=fact(3);
+document.getElementById('e').innerHTML=factorial;
+
+</script>
+</html>
+</body>
+
+
